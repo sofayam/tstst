@@ -1,0 +1,8 @@
+npm install -g typescript
+
+tsconfig.json
+
+    files in .vscode
+
+        launch.json  (specify the right program, set sourceMaps to true)
+        tasks.json  (create using apfel shift B and choose watch mode)
