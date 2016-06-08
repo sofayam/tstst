@@ -7,4 +7,6 @@ myself"));
 console.log("this is the sum " + f.sum() + " which is all");
 var b = new d_1.Bar();
 console.log("message from b " + b.tell());
+var c = new d_1.Baz(2, 3);
+console.log(c.gimme());
 //# sourceMappingURL=c.js.map
