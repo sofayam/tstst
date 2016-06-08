@@ -6,3 +6,15 @@ tsconfig.json
 
         launch.json  (specify the right program, set sourceMaps to true)
         tasks.json  (create using apfel shift B and choose watch mode)
+
+
+npm install -g typings
+
+typings install dt~node --global
+typings install dt~express --global
+
+but this causes problems at the moment so tried:
+
+
+npm i @types/node
+npm i @types/express
