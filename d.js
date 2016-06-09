@@ -16,7 +16,7 @@ var Baz = (function () {
         this.cont = {};
         this.cont['a'] = a;
         this.cont['b'] = b;
-        this.cont['c'] = "bla";
+        this.cont['c'] = "blaba";
     }
     Baz.prototype.gimme = function () {
         return this.cont;
