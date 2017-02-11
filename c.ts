@@ -15,3 +15,7 @@ console.log("message from b " + b.tell());
 var c = new Baz(2,3)
 
 console.log(c.gimme())
+
+c.cont['a'] = 6
+
+ff(990);

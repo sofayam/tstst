@@ -7,7 +7,7 @@ var Foo = (function () {
         this.x = x;
         this.y = y;
         this.z = x + y;
-        console.log("created a foo with $x and $y");
+        console.log("created a foo with " + x + " and " + y);
     }
     Foo.prototype.sum = function () {
         return this.z;
@@ -20,7 +20,7 @@ var Foo = (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = Foo;
 function doit() {
-    var f = new Foo(2, 3);
+    var f = new Foo(2, 4);
     console.log(f.sum() + " ");
 }
 //# sourceMappingURL=b.js.map

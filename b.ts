@@ -5,7 +5,7 @@ export default class Foo {
     z : number;
     constructor(public x: number,public y: number) {
      this.z = x + y;
-        console.log(`created a foo with $x and $y`)
+        console.log(`created a foo with ${x} and ${y}`)
     }
 
     sum() : number {
@@ -17,6 +17,6 @@ export default class Foo {
 }
 
 function doit() {
-    var f = new Foo(2,3);
+    var f = new Foo(2,4);
     console.log(f.sum() + " ");
 }

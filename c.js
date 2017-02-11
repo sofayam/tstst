@@ -9,4 +9,6 @@ var b = new d_1.Bar();
 console.log("message from b " + b.tell());
 var c = new d_1.Baz(2, 3);
 console.log(c.gimme());
+c.cont['a'] = 6;
+ff(990);
 //# sourceMappingURL=c.js.map
